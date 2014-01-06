@@ -1,14 +1,14 @@
 {
-  "name": "passport-token",
-  "version": "0.1.1",
-  "description": "Username and token authentication strategy for Passport - modified from passport-local.",
+  "name": "passport-accesstoken",
+  "version": "0.1.0",
+  "description": "Token authentication strategy for Passport.",
   "author": {
-    "name": "Lee Powell"
+    "name": "Philip Heinser (appcom interactive GmbH)"
   },
   "main": "./lib/passport-token",
   "repository": {
       "type": "git",
-      "url": "https://github.com/leepowellcouk/passport-token"
+      "url": "https://github.com/AppCom/passport-token"
   },
   "dependencies": {
     "passport": "~0.1.1"
