@@ -1,14 +1,14 @@
 {
-  "name": "passport-accesstoken",
-  "version": "0.1.0",
+  "name": "passport-access-token",
+  "version": "1.0.0",
   "description": "Token authentication strategy for Passport.",
   "author": {
-    "name": "Philip Heinser (appcom interactive GmbH)"
+    "name": "Owen Xue"
   },
   "main": "./lib/passport-token",
   "repository": {
       "type": "git",
-      "url": "https://github.com/AppCom/passport-token"
+      "url": "https://github.com/beesui/passport-access-token"
   },
   "dependencies": {
     "passport": "~0.1.1"

@@ -1,16 +1,17 @@
-passport-accesstoken
+passport-access-token
 ==============
+FORK FROM passport-accesstoken
 
 Token authentication strategy for Passport.
 
 ## Installation
-    $ npm install passport-accesstoken
+    $ npm install passport-access-token
 
 ## Usage
 
 The token authentication strategy authenticates users using a username and token. The strategy requires a verify callback, which accepts these credentials and calls done providing a user.
 
-    var TokenStrategy = require('passport-accesstoken').Strategy;
+    var TokenStrategy = require('passport-access-token').Strategy;
     
     passport.use(new TokenStrategy(
         function (token, done) {
@@ -46,7 +47,7 @@ By default, passport-token checks for `token` credentials in either the header o
 
 These credential locations can be configured when defining the strategy as follows:
 
-    var TokenStrategy   = require('passport-accesstoken').Strategy;
+    var TokenStrategy   = require('passport-access-token').Strategy;
     var strategyOptions = {
         tokenHeader:    'x-custom-token',        
         tokenField:     'custom-token'
